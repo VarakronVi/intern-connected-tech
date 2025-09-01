@@ -1,0 +1,15 @@
+# media
+*.mp4 *.mov *.avi *.mkv *.m4v
+# models
+*.pt *.pth *.onnx *.ckpt *.weights
+# archives
+*.zip *.tar *.tar.gz *.7z *.rar
+# generated
+/evidence/
+/outputs/
+/runs/
+/videos/
+/datasets/
+/checkpoints/
+*.log
+.DS_Store

@@ -1,0 +1,24 @@
+# Car Speed Tracker Configuration
+# Set up a vehicle speed tracking system
+
+# CCTV camera connection
+camera:
+  rtsp_url: "rtsp://localhost:8554/stream1" # RTSP camera URL
+  # rtsp_url: "rtsp://admin:password@192.168.1.100:554/stream"  # IP Camera Example
+
+# Speed ​​limit
+speed_limit:
+  max_speed_kmh: 15 # Maximum permitted speed (km/h)
+
+# Real-world speed measurement area size (meters)
+measurement_area:
+  width_meters: 4.28 # Width of the measurement area (meters)
+  height_meters: 23.13 # Length of the measurement area (meters)
+
+# Advanced settings (not recommended to edit)
+advanced:
+  model_path: "yolo11n.pt" # Path of YOLO model
+  confidence_threshold: 0.4 # Minimum confidence level
+  iou_threshold: 0.5 # IOU threshold
+  max_missed_frames: 10 # Maximum number of frames lost before deleting a track
+  buffer_size: 2 # Camera buffer size
