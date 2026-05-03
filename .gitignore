@@ -1,40 +1,16 @@
-# videos / media
+src/
+test/
+utils/
+*.py
+*.yaml
+*.yml
+*.json
+*.pt
 *.mp4
 *.mov
-*.mkv
 *.avi
-*.m4v
-*.webm
-
-# ML models / weights
-*.pt
-*.pth
-*.onnx
-*.ckpt
-*.weights
-
-# archives
-*.zip
-*.tar
-*.tar.gz
-*.7z
-*.rar
-
-# generated / datasets / outputs
-evidence/
-outputs/
-runs/
-videos/
-datasets/
-checkpoints/
-
-# optional: บีบ PNG ใหญ่ให้อยู่นอก repo แทน
-# ถ้าจำเป็นต้องใส่ภาพ ให้คุมขนาด <5MB
-# (ตรงนี้กันเฉพาะไฟล์ที่ใหญ่สุดที่คุณมี)
-src/assets/images/area_setting.png
-
-# misc
-*.log
-.DS_Store
+*.png
+*.jpg
 __pycache__/
 *.pyc
+.env
