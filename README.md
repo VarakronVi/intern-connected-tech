@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/VarakronVi/intern-connected-tech/main/assets/connected-tech-logo.png" width="300"/>
+<img src="https://raw.githubusercontent.com/VarakronVi/intern-connected-tech/main/connected-tech-logo.png" width="300"/>
 
 <br><br>
 
@@ -25,7 +25,7 @@
 ### 🎬 System in Action
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/VarakronVi/intern-connected-tech/main/assets/demo.jpg" width="700"/>
+<img src="https://raw.githubusercontent.com/VarakronVi/intern-connected-tech/main/demo.jpg" width="700"/>
 
 *Real-time speed detection — bounding box, speed display (km/h), status (NORMAL/VIOLATION), and ROI polygon*
 </div>
